@@ -1,0 +1,120 @@
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baskervville', serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+main {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  
+  overflow: auto;
+}
+
+section {
+  width: 100%;
+  max-width: 100%;
+  height: 33%;
+  max-height: 33%;
+  min-height: 33%;
+  flex-grow: 1;
+}
+
+.heading {
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header>* {
+  width: 50vw;
+  height: 100%;
+  flex-grow:1;
+  color: #ff4013;
+}
+
+.hero-img {
+  object-fit: cover;
+}
+
+.hero-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.author {
+  display: inline-block;
+  
+}
+
+.social-icons {
+  display: inline-block;
+
+}
+
+/* header,
+div,
+article,
+aside {
+  height: 100%;
+} */
+
+
+/* .main {
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100vh;
+  height: 1000px;
+  max-height: 100%
+}
+
+.heading {
+  width:100%;
+  height:33%;
+  max-width: 100%;
+  max-height: 33%;
+}
+
+.text {
+  width:100%;
+  height:33%;
+  max-width: 100%;
+  max-height: 33%;
+}
+
+.text text-with-images {
+  width:100%;
+  height:33%;
+  max-width: 100%;
+  max-height: 33%;
+} */
